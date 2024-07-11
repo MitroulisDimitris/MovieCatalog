@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Error Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7;
+      }
+      .container {
+        margin: 0 auto;
+        max-width: 600px;
+        text-align: center;
+        padding: 20px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        box-shadow: 0 1px 3px rgba(0,0,0,.1);
+      }
+      h1 {
+        font-size: 36px;
+        color: #333;
+        margin-top: 0;
+      }
+      p {
+        font-size: 18px;
+        color: #666;
+        margin-bottom: 20px;
+      }
+    </style>
+    <link rel="stylesheet" href="./assets/error-page-styles.css"/>
+
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/search">Search</a></li>
+        <li><a href="/profile">Profile</a></li>
+        <li><a href="/login">Login</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <h1>Error Page</h1>
+      <p>Something Went Wrong</p>
+      <p><%= st%></p>
+    </div>
+  </body>
+</html>

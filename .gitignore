@@ -1,0 +1,5 @@
+client/
+moviehunter
+node_modules/
+public/images/
+requests.rest

@@ -1,0 +1,111 @@
+.movie-form label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  .movie-form{
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .movie-form input[type="text"],
+  .movie-form input[type="number"],
+  .movie-form textarea {
+    width: 300px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .movie-form input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .movie-form button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  a {
+   
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+  }
+  
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  h1 {
+    margin: 0;
+  }
+  #main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #poster {
+    margin-right: 20px;
+  }
+  #poster img {
+    width: 300px;
+  }
+  #info {
+    flex: 1;
+  }
+  #info h2 {
+    margin-top: 0;
+  }
+  #info p {
+    line-height: 1.5;
+  }
+  #info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  #info ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  #info ul li:last-child {
+    margin-right: 0;
+  }
+  footer {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+  }

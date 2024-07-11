@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Page</title>
+    <script
+        src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/searchPage.js"></script>
+    <link rel="stylesheet" href="./assets/styles.css"/>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/search">Search</a></li>
+        <li><a href="/profile">Profile</a></li>
+        <li><a href="/login">Login</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="search-container">
+        <div class="search-bar">
+          <input onkeyup="sendData(this)" type="text" placeholder="Enter movie name here..." 
+          id="movie-name"
+          value="">
+          <button type="button" id="search-btn">Search</button>
+        </div>
+        
+          <div class="right">
+            <form id="search-form">
+              <label for="genre">Select Genre:</label>
+              <select id="genre" name="genre">
+                <option value="">All</option>
+                <option value="Action">Action</option>
+                <option value="Romance">Romance</option>
+                <option value="Fantasy">Fantasy</option>
+                <option value="Drama">Drama</option>
+                <option value="Crime">Crime</option>
+                <option value="Adventure">Adventure</option>
+                <option value="Sci-fi">Sci-fi</option>
+                <option value="Music">Music</option>
+                <option value="Family">Family</option>
+                <option value="Thriller">Thriller</option>
+
+              </select>
+
+              <label for="order-by">Order By:</label>
+              <select id="order-by" name="order-by">
+                <option value="title">Title</option>
+                <option value="year">Year</option>
+                <option value="director">Director</option>
+                <option value="rating">Rating</option>
+              </select>
+              <select id="ascdesc" name="ascdesc">
+                <option value="1">Ascending</option>
+                <option value="-1">Descending</option>
+              </select>
+              
+              <label for="playingStatus">Playing Status:</label>
+              <select id="playingStatus" name="playingStatus">
+                <option value="all">All</option>
+                <option value="true">Playing Now</option>
+                <option value="false">Available for streaming</option>
+              </select>
+
+              
+            </form>
+          </div>
+          <section id = "searchResults"></section>
+
+
+
+
+      </div>
+      </div>
+  
+      <div class="leftright">
+        <div id="result">
+          <main id="MYmovies"></main>
+          <main id="APImovies"></main>
+        </div>   
+        
+        </div>
+      </div>
+
+      
+   
+   
+
+</body>
+</html>

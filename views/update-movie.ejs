@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Edit Movie</title>
+  <script
+    src="https://code.jquery.com/jquery-3.6.3.js"
+    integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+    crossorigin="anonymous">
+  </script>
+  <script type="text/javascript" src="/assets/update-movie.js"></script>
+  <link rel="stylesheet" href="./assets/create-movie-styles.css"/>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="/search">Search</a></li>
+      <li><a href="/profile">Profile</a></li>
+      <li><a href="/login">Login</a></li>
+    </ul>
+  </nav>
+  <h1>Edit Movie</h1>
+  <form id="MYmovies" action="/update-movie" method="POST">
+    <input id="movie_id" type="hidden" name="movie_id" value=<%=movie %>> <!-- The ID of the movie to be updated -->
+  </form>
+  <a href="/profile"><button>Go back</button></a>
+
+</body>
+</html>

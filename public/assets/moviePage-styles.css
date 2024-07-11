@@ -1,0 +1,40 @@
+nav {
+    background-color: #333;
+    color: #fff;
+  }
+  
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+
+ .comments{
+
+  margin: 10px 0 0 20px ;
+ } 
+ .comment-list{
+
+  margin: 30px 0 0 20px ;
+ } 
+
+.image-poster {
+  height: 225px;
+  width: auto;
+  margin-right: 20px;
+  border-radius: 10px;
+}
